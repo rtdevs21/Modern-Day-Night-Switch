@@ -59,9 +59,9 @@ public class DayNightSwitch extends View implements Animator.AnimatorListener {
             lightBackDraw.setGradientType(GradientDrawable.LINEAR_GRADIENT);
 
 
-            darkBackBit = (BitmapDrawable) getContext().getResources().getDrawable(R.drawable.dark_background);
-            sunBit = (BitmapDrawable) getContext().getResources().getDrawable(R.drawable.img_sun);
-            moonBit = (BitmapDrawable) getContext().getResources().getDrawable(R.drawable.img_moon);
+            darkBackBit = (BitmapDrawable) getContext().getResources().getDrawable(R.drawable.dark_backgrounds);
+            sunBit = (BitmapDrawable) getContext().getResources().getDrawable(R.drawable.img_suns);
+            moonBit = (BitmapDrawable) getContext().getResources().getDrawable(R.drawable.img_moons);
             cloudsBit = (BitmapDrawable) getContext().getResources().getDrawable(R.drawable.img_clouds);
         }
 
